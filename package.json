@@ -1,0 +1,32 @@
+{
+  "name": "mi-api",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "api",
+    "node",
+    "express",
+    "backend"
+  ],
+  "homepage": "https://github.com/nath1710/Prueba-tecnica-backend#readme",
+  "bugs": {
+    "url": "https://github.com/nath1710/Prueba-tecnica-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nath1710/Prueba-tecnica-backend.git"
+  },
+  "license": "ISC",
+  "author": "Nataly Castañeda (github.com/nath1710)",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
